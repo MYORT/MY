@@ -1,0 +1,514 @@
+
+/*------------------------------index.html------------------------------*/
+
+body {
+  background-image: url("img/space.jpg");
+}
+
+.h1 {
+  text-align: center;
+  color: white;
+  font-family: kunstler script;
+}
+
+.p1 {
+  color: white;
+  text-align: center;
+}    
+
+.yavuz {
+  position:absolute;
+  margin-left: 470px;
+  margin-top: 100px;
+  border: 130px solid gold;
+  border-radius: 100%;
+  display:inline-flex;
+  background: radial-gradient(transparent 50%, white), radial-gradient(yellow, transparent 60%);
+  -webkit-mask-image: radial-gradient(rgba(0, 0, 0, 1.0) 40%, transparent 65%);
+  mask-image: radial-gradient(rgba(0, 0, 0, 1.0) 40%, transparent 65%);
+  opacity: 0;
+}
+
+.yavuz2 {
+  position:absolute;
+  margin-left: 535px;
+  margin-top: 155px;
+  border: 70px solid gold;
+  border-radius: 100%;
+  display:inline-flex;
+  background: radial-gradient(transparent 50%, white), radial-gradient(yellow, transparent 60%);
+  -webkit-mask-image: radial-gradient(rgba(0, 0, 0, 1.0) 40%, transparent 65%);
+  mask-image: radial-gradient(rgba(0, 0, 0, 1.0) 40%, transparent 65%);
+  opacity: 0;
+}
+
+.mezun {
+  position:absolute;
+  margin-left: 470px;
+  margin-top: 30px;
+  border: 130px solid gold;
+  border-radius: 100%;
+  display:inline-flex;
+  background: radial-gradient(transparent 50%, white), radial-gradient(yellow, transparent 60%);
+  -webkit-mask-image: radial-gradient(rgba(0, 0, 0, 1.0) 40%, transparent 65%);
+  mask-image: radial-gradient(rgba(0, 0, 0, 1.0) 40%, transparent 65%);
+  opacity: 0;
+}
+
+.yavuzmini {
+  position:absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 100px solid gold;
+  border-radius: 100%;
+  display:inline-flex;
+  background: radial-gradient(transparent 50%, white), radial-gradient(yellow, transparent 60%);
+  -webkit-mask-image: radial-gradient(rgba(0, 0, 0, 1.0) 40%, transparent 65%);
+  mask-image: radial-gradient(rgba(0, 0, 0, 1.0) 40%, transparent 65%);
+  opacity: 1;
+}
+
+
+/*-----------------------------My Skills--------------------------------------*/
+
+.c {
+  position: absolute;
+  margin-left: 660px;
+  margin-top: 120px;
+  opacity: 0;
+  animation: c 30s linear infinite;
+  animation-delay: 32.2s;
+}
+
+.html {
+  position: absolute;
+  margin-left: 550px;
+  margin-top: 160px;
+  opacity: 0;
+  animation: html 30s linear infinite;
+  animation-delay: 28.5s;
+}
+
+.css {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 310px;
+  opacity: 0;
+  animation: css 30s linear infinite;
+  animation-delay: 24.8s;
+}
+
+.reactjs {
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 430px;
+  opacity: 0;
+  animation: reactjs 30s linear infinite;
+  animation-delay: 13.7s;
+}
+
+.js {
+  position: absolute;
+  margin-left: 560px;
+  margin-top: 440px;
+  opacity: 0;
+  animation: js 30s linear infinite;
+  animation-delay: 21.1s;
+}
+
+.python {
+  position: absolute;
+  margin-left: 620px;
+  margin-top: 480px;
+  opacity: 0;
+  animation: python 30s linear infinite;
+  animation-delay: 17.4s;
+}
+
+.bootstrap {
+  position: absolute;
+  margin-left: 750px;
+  margin-top: 200px;
+  opacity: 0;
+  animation: bootstrap 30s linear infinite;
+  animation-delay: 35.9s;
+}
+
+.jquery {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 320px;
+  opacity: 0;
+  animation: jquery 30s linear infinite;
+  animation-delay: 10s;
+}
+
+@keyframes python {
+  from {  transform: rotate(0deg) translate(300px) rotate(0deg) translate(-0.5em,-17.5em);}
+  to   {  transform: rotate(360deg) translate(300px) rotate(-360deg) translate(-0.5em,-17.5em);}
+} 
+
+@keyframes bootstrap {
+  from {  transform: rotate(0deg) translate(300px) rotate(0deg) translate(-12.5em,12.5em);}
+  to   {  transform: rotate(360deg) translate(300px) rotate(-360deg) translate(-12.5em,12.5em);}
+}
+
+@keyframes jquery {
+  from {  transform: rotate(0deg) translate(300px) rotate(0deg) translate(-17.6em);}
+  to   {  transform: rotate(360deg) translate(300px) rotate(-360deg) translate(-17.6em);}
+} 
+
+@keyframes js {
+  from {  transform: rotate(0deg) translate(300px) rotate(0deg) translate(14em, -14em);}
+  to   {  transform: rotate(360deg) translate(300px) rotate(-360deg) translate(14em, -14em);}
+} 
+
+@keyframes reactjs {
+  from {  transform: rotate(0deg) translate(300px) rotate(0deg) translate(-14em, -14em);}
+  to   {  transform: rotate(360deg) translate(300px) rotate(-360deg) translate(-14em, -14em);}
+} 
+
+@keyframes css {
+  from {  transform: rotate(0deg) translate(300px) rotate(0deg) translate(18em, 0em);}
+  to   {  transform: rotate(360deg) translate(300px) rotate(-360deg) translate(18em, 0em);}
+} 
+
+@keyframes html {
+  from {  transform: rotate(0deg) translate(300px) rotate(0deg) translate(14em, 11em);}
+  to   {  transform: rotate(360deg) translate(300px) rotate(-360deg) translate(14em, 11em);}
+} 
+
+@keyframes c {
+  from {  transform: rotate(0deg) translate(300px) rotate(0deg) translate(0em, 18em);}
+  to   {  transform: rotate(360deg) translate(300px) rotate(-360deg) translate(0em, 18em);}
+} 
+
+
+/*---------------------------Contact Me----------------------------------*/
+
+.twitter {
+	position: absolute;
+	margin-left: 1200px;
+	margin-top: 110px;
+	opacity: 0;
+}
+
+.facebook {
+	position: absolute;
+	margin-left: 160px;
+	margin-top: 580px;
+	opacity: 0;
+}
+	  
+.instagram {
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 560px;
+	opacity: 0;
+	
+}
+	  
+.linkedin {
+	position: absolute;
+	margin-left: 480px;
+	margin-top: 330px;
+	opacity: 0;
+	
+}
+	  
+.mail {
+	position: absolute;
+	margin-left: 220px;
+	margin-top: 430px;
+	opacity: 0;
+}
+  
+.whatsapp {
+	position: absolute;
+	margin-left: 1345px;
+	margin-top: 480px;
+	opacity: 0;
+}
+	  
+.youtube {
+	position: absolute;
+	margin-left: 900px;
+	margin-top: 420px;
+	opacity: 0;
+}
+
+.tiktok {
+	position: absolute;
+	margin-left: 1300px;
+	margin-top: 520px;
+	opacity: 0;
+}
+
+
+/*------------------------------About Me-----------------------------------*/
+
+.tub {
+  position: absolute;
+	margin-left: 30px;
+	margin-top: 50px;
+  opacity: 0;
+  animation: move 8s ease-in-out;
+}
+
+.viyana {
+  position: absolute;
+	margin-left: 1100px;
+	margin-top: 50px;
+  opacity: 0;
+  animation: move 8s ease-in-out;
+}
+
+.sabanci {
+  position: absolute;
+	margin-left: 1040px;
+	margin-top: 470px;
+  opacity: 0;
+  animation: move 8s ease-in-out;
+}
+
+.aachen {
+  position: absolute;
+	margin-left: 30px;
+	margin-top: 470px;
+  opacity: 0;
+  animation: move 8s ease-in-out;
+}
+
+@keyframes move {
+  0%{width: 0px; height: 0px;}
+  10%{width: 35px; height: 25px;}
+  20%{width: 70px; height: 50px;}
+  30%{width: 105px; height: 75px;}
+  40%{width: 140px; height: 100px;}
+  50%{width: 175px; height: 125px;}
+  60%{width: 210px; height: 150px;}
+  70%{width: 245px; height: 175px;}
+  80%{width: 280px; height: 200px;}
+  85%{width: 315px; height: 225px;}
+  90%{width: 340px; height: 240px;}
+  95%{width: 345px; height: 245px;}
+  100%{width: 350px; height: 250px;}
+}
+
+
+/*------------------------------My Hobbies----------------------------*/
+
+
+.yavuz4 {
+  position:absolute;
+  margin-left: -20px;
+  margin-top: -20px;
+  border: 160px solid gold;
+  border-radius: 100%;
+  display:inline-flex;
+  background: radial-gradient(transparent 50%, white), radial-gradient(yellow, transparent 60%);
+  -webkit-mask-image: radial-gradient(rgba(0, 0, 0, 1.0) 40%, transparent 65%);
+  mask-image: radial-gradient(rgba(0, 0, 0, 1.0) 40%, transparent 65%);
+  opacity: 0;
+}
+
+.basketball {
+  position: absolute;
+	margin-left: -150px;
+	margin-top: 570px;
+  filter: grayscale(1) invert(1);
+  animation: walk 40s linear;
+  animation-delay: 5s;
+  animation-iteration-count: 10;
+}
+
+.footballplayer {
+  position: absolute;
+	margin-left: -150px;
+	margin-top: 570px;
+  filter: grayscale(1) invert(1);
+  animation: walk 40s linear;
+  animation-delay: 10s;
+  animation-iteration-count: 10;
+}
+
+.guitarist {
+  position: absolute;
+	margin-left: -150px;
+	margin-top: 570px;
+  filter: grayscale(1) invert(1);
+  animation: walk 40s linear;
+  animation-delay: 15s;
+  animation-iteration-count: 10;
+}
+
+.programmer {
+  position: absolute;
+	margin-left: -150px;
+	margin-top: 570px;
+  filter: grayscale(1) invert(1);
+  animation: walk 40s linear;
+  animation-delay: 20s;
+  animation-iteration-count: 10;
+}
+
+.travel {
+  position: absolute;
+	margin-left: -150px;
+	margin-top: 570px;
+  filter: grayscale(1) invert(1);
+  animation: walk 40s linear;
+  animation-delay: 25s;
+  animation-iteration-count: 10;
+} 
+
+.working {
+  position: absolute;
+	margin-left: -150px;
+	margin-top: 570px;
+  filter: grayscale(1) invert(1);
+  animation: walk 40s linear;
+  animation-delay: 30s;
+  animation-iteration-count: 10;
+}
+
+.swimming {
+  position: absolute;
+	margin-left: -150px;
+	margin-top: 570px;
+  filter: grayscale(1) invert(1);
+  animation: walk 40s linear;
+  animation-delay: 35s;
+  animation-iteration-count: 10;
+}
+
+.cycling {
+  position: absolute;
+	margin-left: -150px;
+	margin-top: 570px;
+  filter: grayscale(1) invert(1);
+  animation: walk 40s linear;
+  animation-delay: 40s;
+  animation-iteration-count: 10;
+}
+
+@keyframes walk {
+  0%{left: 0px;top:570;}
+  10%{left: 200px;top:570;}
+  20%{left: 400px;top:570;}
+  30%{left: 600px;top:570;}
+  40%{left: 800px;top:570;}
+  50%{left: 1000px;top:570;}
+  60%{left: 1200px;top:570;}
+  70%{left: 1400px;top:570;}
+  80%{left: 1600px;top:570;}
+  90%{left: 1800px;top:570;}
+  100%{left: 2000px;top:570;}
+}
+
+/* ------------------------------My Projects--------------------------------*/
+
+.earth00 {
+  position: absolute;
+	margin-left: 1290px;
+	margin-top: 530px;
+}
+
+.earth01 {
+  position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.earth02 {
+  position: absolute;
+	margin-left:720px;
+	margin-top: 120px;
+}
+
+.earth03 {
+  position: absolute;
+	margin-left: 20px;
+	margin-top:420px;
+}
+
+.earth10 {
+  position: absolute;
+	margin-left: 180px;
+	margin-top: 30px;
+}
+
+.earth11 {
+  position: absolute;
+	margin-left: 890px;
+	margin-top: 130px;
+}
+
+.earth12 {
+  position: absolute;
+	margin-left: 290px;
+	margin-top: 500px;
+}
+
+.earth13 {
+  position: absolute;
+	margin-left: 1290px;
+	margin-top: 460px;
+}
+
+.earth20 {
+  position: absolute;
+	margin-left: 490px;
+	margin-top: 130px;
+}
+
+.earth21 {
+  position: absolute;
+	margin-left: 590px;
+	margin-top: 330px;
+}
+
+.earth22 {
+  position: absolute;
+	margin-left: 790px;
+	margin-top: 430px;
+}
+
+.earth23 {
+  position: absolute;
+	margin-left: 690px;
+	margin-top: 370px;
+}
+
+.earth30 {
+  position: absolute;
+	margin-left: 1190px;
+	margin-top: 50px;
+}
+
+.earth31 {
+  position: absolute;
+	margin-left: 1020px;
+	margin-top: 390px;
+}
+
+.earth32 {
+  position: absolute;
+	margin-left: 590px;
+	margin-top: 530px;
+}
+
+.earth33 {
+  position: absolute;
+	margin-left: 390px;
+	margin-top: 330px;
+}
+
+.world {
+  position: absolute;
+  margin-left: 590px;
+  margin-top: 90px;
+  opacity: 0;
+}
+
+
